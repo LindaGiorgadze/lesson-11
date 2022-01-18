@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson">
+    <meta name="keywords" content="Html, CSS" >
+    <meta name="author" content="Linda" >
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <meta property="og:url"                content="https://lindagiorgadze.github.io/lesson-11/" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lesson 11</title>
+</head>
+<body>
+    <section class="FormSection">
+        <form action="/" class="form1">
+            <fieldset>
+                <label for="name">სახელი</label>
+                <input type="text" id="name" name="User Name" disabled value="aljbdals" size="50">
+                <label for="surname">გვარი</label>
+                <input type="text" id="surname" name="User Surname" maxlength="5" readonly value="aksjbda">
+                <label for="password">პაროლი</label>
+                <input type="password" id="password" name="Password" minlength="6" required>
+            </fieldset>
+            <div>
+                <input type="checkbox" id="number1" name="Checkbox Numbers" checked>
+                <label for="number1">1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="number2" name="Checkbox Numbers">
+                <label for="number2">2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="number3" name="Checkbox Numbers">
+                <label for="number3">3</label>
+            </div>
+            <div>
+                <input type="checkbox" id="number4" name="Checkbox Numbers">
+                <label for="number4">4</label>
+            </div>
+            <div>
+                <input type="radio" id="radio1" value="1" name="Radio Numbers">
+                <label for="radio1">1</label>
+            </div>
+            <div>
+                <input type="radio" id="radio2" value="2" name="Radio Numbers">
+                <label for="radio2">2</label>
+            </div>
+            <div>
+                <input type="radio" id="radio3" value="3" name="Radio Numbers">
+                <label for="radio3">3</label>
+            </div>
+            <input type="number" name="numberInput" id="numberInput" value="0" step="5">
+            <input type="range" name="rangeInput" id="rangeInput" min="20" max="50">
+
+            <label for="select">Select your option:</label>
+            <select name="selectOptions" id="select" >
+                <option value="1">Car 1</option>
+                <option value="2">Car 2</option>
+                <option value="3">Car 3</option>
+                <option value="4" selected>Car 4</option>
+            </select>
+            <label for="comment">Please write a comment:</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" ></textarea>
+
+            <input type="submit" value="შენახვა" >
+            <input type="reset" value="წაშლა" >
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </form>
+    </section>
+
+</body>
+</html>
